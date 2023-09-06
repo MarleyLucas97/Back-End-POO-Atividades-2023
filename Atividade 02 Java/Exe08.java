@@ -25,9 +25,9 @@ public class Exe08 {
             System.out.println("Digite o numero: ");
             n3=leia.nextDouble();
             
-            n4=n3*(n3/(n3+n3));
+            n4= Math.sqrt(n3);
 
-            System.out.printf("A raiz quadrada e %f.", n4);
+            System.out.printf("A raiz quadrada e %.2f.", n4);
         }else{
             System.out.println("Erro");
         }
